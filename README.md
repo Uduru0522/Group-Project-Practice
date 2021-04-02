@@ -14,12 +14,17 @@ with you acting as the **group member**, forking and sending pull request to thi
 ## Steps
 ### First of all, setup git.
 
-⚠️ During setup, you might be asked to set user.name and user.email, follow the instructions from command prompt.
-
 #### If you are on Linux:
 Use the command `sudo apt-get install git` to install. Type `git --version` to confirm.
 #### If you are on Windows:
 Get [GitBash](https://gitforwindows.org/) and install. After install, you should be able to open a command prompt through the .exe file.
+
+#### Config setup
+Then use the following commands to setup `user.name` and `user.email`. It is used to identify commits.
+```bash
+git config --global user.name "<Your name>"
+$ git config --global user.email <Your email>
+```
 
 ### As the group member:
 1. Click **Fork** on the [main repositiory](https://github.com/Uduru0522/Group-Project-Practice). 
