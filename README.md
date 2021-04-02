@@ -13,6 +13,9 @@ with you acting as the **group member**, forking and sending pull request to thi
 
 ## Steps
 ### First of all, setup git.
+
+⚠️ During setup, you might be asked to set user.name and user.email, follow the instructions from command prompt.
+
 #### If you are on Linux:
 Use the command `sudo apt-get install git` to install. Type `git --version` to confirm.
 #### If you are on Windows:
