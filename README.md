@@ -27,6 +27,21 @@ Get [GitBash](https://gitforwindows.org/) and install. After install, you should
 4. Use command `git remote add upstream https://github.com/Uduru0522/Group-Project-Practice.git`
 > This is to set connection to the **main project**. This way you can pull updates on the main repo. (The arrow labled "C")\
 5. Make your changes and commit. The instructions on properly making change on projects are at below.
-6. Run `git push origin master` to push changes to *your fork*. 
+6. Run `git push origin main` to push changes to *your fork*. 
 > You should be able to see the updates on `https://github.com/ <Your GitHub ID> /Group-Project-Practice`
 7. At the website, click "Send Pull Request". After the project manager merges, you can see the changes on main repo.
+
+## When making changes
+Beforing making changes, you should fork and clone the repositiory, and set up the upstream to the main repo (~step 4 of above). Then:
+
+1. Update local with central repo. (`git pull upstream main`, This is step 5 of the above steps)
+2. Set up a new branch with `git branch <new branch name>`. Always keep the master branch a **runable thing**
+3. Switch to the created branch with `git checkout <new branch name>`
+4. Make code edits. You can use `git status` to see what changes are made.
+5. Use `git add .` to add all changes files to commit. If you only want to commit some, use `git add <filename>`.
+6. Run `git commit` and write commit message. If the file is saved successfully, the change is done.
+7. Go back to master branch with `git checkout main`.
+8. Merge the two branchs with `git merge <new branch name>`
+
+And you've done the editing. Nice.
+
