@@ -23,7 +23,7 @@ Get [GitBash](https://gitforwindows.org/) and install. After install, you should
 Then use the following commands to setup `user.name` and `user.email`. It is used to identify commits.
 ```bash
 git config --global user.name "<Your name>"
-$ git config --global user.email <Your email>
+git config --global user.email <Your email>
 ```
 
 ### As the group member:
